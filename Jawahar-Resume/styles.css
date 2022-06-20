@@ -1,0 +1,57 @@
+body{
+
+  background-image: url(notebook.png);
+}
+.box{
+  background-image: url(pattern2-900x281grey.jpg);
+  background-repeat: round;
+}
+h1{
+  color: #4C3575;
+}
+h2{
+  color: #4C3575;
+}
+h3{
+  color: #4C3575;
+}
+
+hr{
+  border-style: dotted none none;
+  width: 5%;
+  border-width:5px;
+  color: grey;
+  opacity: 0.5;
+}
+img {
+  height: 220px;
+}
+
+form :active {
+  color: red;
+}
+
+form submit{
+  background: purple;
+}
+
+form input,
+form textarea{
+  width: 30%;
+  padding: 5px;
+  font-size: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  margin-top: 5px;
+}
+
+form{
+  width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #0000010;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 18px;
+}
